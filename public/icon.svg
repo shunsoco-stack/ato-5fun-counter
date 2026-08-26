@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>あと5分カウンター</title>
+  <defs>
+    <linearGradient id="background" x1="70" y1="34" x2="442" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6258" />
+      <stop offset="0.58" stop-color="#ff3b30" />
+      <stop offset="1" stop-color="#d91f16" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(181 129) rotate(53) scale(358)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.26" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#background)" />
+  <rect width="512" height="512" fill="url(#glow)" />
+  <circle cx="256" cy="256" r="176" fill="#ffffff" fill-opacity="0.12" />
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="42">
+    <path d="M171 210v92M125 256h92" />
+    <path d="M386 184h-91l-10 77c16-10 33-15 51-15 42 0 70 27 70 65 0 43-35 72-78 72-22 0-43-7-59-20" />
+  </g>
+</svg>
