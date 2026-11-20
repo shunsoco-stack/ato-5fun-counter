@@ -836,6 +836,7 @@ export function CounterApp() {
 
         <footer className="footer">
           <p>データはこのブラウザだけ。言い訳はあなたのもの。</p>
+          <p><a href="/privacy">プライバシーポリシー</a></p>
           <span>© 2026 ATO 5 FUN COUNTER</span>
         </footer>
       </div>
